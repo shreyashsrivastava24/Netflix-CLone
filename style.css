@@ -220,6 +220,17 @@ footer .questions {
     color: white;
 }
 
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
 @media screen and (max-width:1300px) {
     nav {
         max-width: 90vw;
@@ -269,23 +280,10 @@ footer .questions {
     .footer-item {
         align-items: center;
     }
-}
 
-@media screen and (max-width:1300px) {
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
-}
-
-.footer a {
-    font-size: 14px;
-    color: white;
-}
-
-.footer-item {
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
 }
